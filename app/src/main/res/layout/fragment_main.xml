@@ -30,23 +30,15 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin">
 
         <Button
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
             android:id="@+id/spotify_streamer_button"
             android:text="@string/spotify_streamer"
-            android:textColor="@color/normal_text"
-            android:background="@color/normal_background"
+            style="@style/ButtonStyle.NormalButtonStyle"
             android:layout_marginRight="@dimen/activity_horizontal_margin"/>
 
         <Button
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
             android:id="@+id/scores_app_button"
             android:text="@string/scores_app"
-            android:background="@color/normal_background"
-            android:textColor="@color/normal_text"/>
+            style="@style/ButtonStyle.NormalButtonStyle" />
 
     </LinearLayout>
 
@@ -58,23 +50,15 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin">
 
         <Button
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
             android:id="@+id/library_app_button"
             android:text="@string/library_app"
-            android:textColor="@color/normal_text"
-            android:background="@color/normal_background"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            style="@style/ButtonStyle.NormalButtonStyle"/>
 
         <Button
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
             android:id="@+id/build_it_bigger_button"
             android:text="@string/build_it_bigger"
-            android:background="@color/normal_background"
-            android:textColor="@color/normal_text"/>
+            style="@style/ButtonStyle.NormalButtonStyle"/>
 
     </LinearLayout>
 
@@ -85,23 +69,15 @@
         android:layout_weight="1">
 
         <Button
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
             android:id="@+id/xyz_reader_app_button"
             android:text="@string/xyz_reader"
-            android:textColor="@color/normal_text"
-            android:background="@color/normal_background"
+            style="@style/ButtonStyle.NormalButtonStyle"
             android:layout_marginRight="@dimen/activity_horizontal_margin"/>
 
         <Button
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
             android:id="@+id/capstone_app_button"
             android:text="@string/capstone_app"
-            android:background="@color/capstone_background"
-            android:textColor="@color/capstone_text"/>
+            style="@style/ButtonStyle.CapstoneButtonStyle"/>
 
     </LinearLayout>
 
